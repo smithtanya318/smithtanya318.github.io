@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>weex安卓版_正版软件下载_专业透明加密资产平台</title>
+<meta name="description" content="weex安卓版是专业的比特币交易、数字货币、合约交易平台、秉持“客户第一,伙伴至上”的经营理念,致力于为全球数字货币交易用户提供安全友好的数字货币交易服务。">
+<meta name="keywords" content="weex安卓版,WEEX安卓下载,唯客交易所官网,唯客注册,weex唯客官网,WEEX交易所,WEEX交易所官网,WEEX交易平台,WEEX官网,唯客交易所">
+<meta name="robots" content="index,follow">
+<style>
+:root{
+  --cream:#f8e9b8;
+  --cream-2:#f3e0a5;
+  --cream-3:#ead391;
+  --paper:#fdf6e2;
+  --plum:#241a33;
+  --plum-2:#332547;
+  --plum-3:#48355e;
+  --coral:#ff6b4a;
+  --coral-d:#e04f2e;
+  --text:#2a1f38;
+  --text-2:#4e3d60;
+  --text-3:#7a688c;
+  --line:#d9c485;
+  --line-2:#c2ab6b;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--cream);color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1240px;margin:0 auto;padding:0 42px}
+header{position:sticky;top:0;z-index:85;background:rgba(248,233,184,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line-2)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:70px;gap:20px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand .blk{
+  width:24px;height:24px;background:var(--plum);border-radius:4px;position:relative;flex:0 0 auto;transform:rotate(-6deg);
+}
+.brand .blk::after{content:"";position:absolute;inset:5px;background:var(--coral);border-radius:2px}
+.brand b{font-size:14.4px;font-weight:900;letter-spacing:-.1px;color:var(--plum)}
+.brand i{font-style:normal;display:block;font-size:8.2px;letter-spacing:2px;text-transform:uppercase;color:var(--text-3);font-weight:900;line-height:1}
+.menu{display:flex;gap:23px;font-size:12.5px;font-weight:800;color:var(--text-2)}
+.menu a{position:relative}
+.menu a::after{content:"";position:absolute;left:0;right:100%;bottom:-3px;height:2px;background:var(--coral);transition:right .24s}
+.menu a:hover{color:var(--plum)}
+.menu a:hover::after{right:0}
+.nav .go{display:flex;gap:9px}
+.bs{
+  display:inline-block;font-size:12.2px;font-weight:900;padding:10px 20px;border-radius:100px;
+  background:var(--plum);color:var(--cream);border:1px solid var(--plum);transition:.22s;
+}
+.bs:hover{background:var(--coral);border-color:var(--coral);color:#fff}
+.bs.gh{background:transparent;color:var(--plum);border-color:var(--line-2)}
+.bs.gh:hover{background:transparent;color:var(--coral);border-color:var(--coral)}
+.ticker{background:var(--plum);color:var(--cream);overflow:hidden;border-bottom:1px solid var(--plum)}
+.ticker .track{display:flex;width:max-content;animation:mv 34s linear infinite}
+.ticker .set{display:flex;align-items:center;gap:0;padding:9px 0}
+.ticker span{
+  font-size:10.4px;font-weight:900;letter-spacing:2px;text-transform:uppercase;
+  padding:0 20px;white-space:nowrap;display:flex;align-items:center;gap:20px;
+}
+.ticker span::after{content:"";width:5px;height:5px;background:var(--coral);border-radius:50%;display:block}
+@keyframes mv{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.hero{padding:60px 0 0}
+.kick{display:flex;align-items:center;gap:12px;font-size:10px;letter-spacing:2.2px;text-transform:uppercase;font-weight:900;color:var(--coral-d);margin-bottom:22px}
+.kick s{text-decoration:none;width:34px;height:2px;background:var(--coral);display:block}
+h1{
+  font-size:clamp(40px,8.6vw,108px);line-height:.94;letter-spacing:-5px;font-weight:900;color:var(--plum);
+  max-width:1000px;
+}
+h1 em{font-style:normal;position:relative;display:inline-block;color:var(--plum)}
+h1 em::after{
+  content:"";position:absolute;left:-2%;right:-2%;bottom:6%;height:24%;background:var(--coral);z-index:-1;border-radius:3px;
+}
+hgrid{display:block}
+.hero .lg{display:grid;grid-template-columns:3fr 7fr;gap:44px;margin-top:38px;align-items:start}
+.hero .lg .lm{
+  border-top:3px solid var(--plum);padding-top:14px;font-size:11.4px;font-weight:900;letter-spacing:1.4px;
+  text-transform:uppercase;color:var(--text-2);
+}
+.hero .lg .lm b{display:block;font-size:30px;letter-spacing:-1.6px;color:var(--plum);line-height:1.1;margin-bottom:6px}
+.hero .lg .rt p{font-size:15.4px;color:var(--text-2);font-weight:700;max-width:640px}
+.hero .lg .rt p + p{margin-top:12px;font-size:13.1px;color:var(--text-3);font-weight:400}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.chip{
+  font-size:11.6px;font-weight:900;color:var(--plum);background:var(--paper);border:1px solid var(--line-2);
+  border-radius:100px;padding:6px 15px;transition:.2s;
+}
+.chip:hover{background:var(--coral);color:#fff;border-color:var(--coral)}
+section{padding:86px 0 0}
+.bighead{display:grid;grid-template-columns:3fr 7fr;gap:44px;padding-top:24px;border-top:1px solid var(--line-2);margin-bottom:40px;align-items:start}
+.bighead .num{
+  font-size:clamp(60px,9vw,116px);line-height:.8;font-weight:900;letter-spacing:-6px;
+  color:transparent;-webkit-text-stroke:1.6px var(--plum);font-variant-numeric:tabular-nums;
+}
+.bighead .num small{
+  display:block;-webkit-text-stroke:0;color:var(--coral-d);font-size:9.6px;letter-spacing:2.2px;
+  text-transform:uppercase;font-weight:900;margin-top:14px;letter-spacing:2.2px;
+}
+.bighead h2{font-size:clamp(23px,3.3vw,38px);letter-spacing:-1.6px;line-height:1.2;font-weight:900;color:var(--plum)}
+.bighead p{font-size:13.5px;color:var(--text-3);margin-top:12px;max-width:660px}
+.body7{display:grid;grid-template-columns:3fr 7fr;gap:44px}
+.body7 .aside .box{
+  background:var(--paper);border:1px solid var(--line-2);border-radius:12px;padding:20px 20px;
+}
+.body7 .aside .box b{display:block;font-size:9.4px;letter-spacing:1.9px;text-transform:uppercase;color:var(--coral-d);font-weight:900;margin-bottom:10px}
+.body7 .aside .box span{font-size:12.6px;color:var(--text-2)}
+.list{display:grid;gap:0;border-top:2px solid var(--plum)}
+.item{display:grid;grid-template-columns:74px 1fr;gap:22px;padding:22px 4px;border-bottom:1px solid var(--line);transition:.2s;align-items:start}
+.item:hover{background:var(--cream-2)}
+.item .k{font-size:11px;font-weight:900;color:var(--coral-d);letter-spacing:1px;padding-top:3px;font-variant-numeric:tabular-nums}
+.item h3{font-size:15.2px;font-weight:900;letter-spacing:-.3px;color:var(--plum);line-height:1.55;margin-bottom:7px}
+.item p{font-size:13px;color:var(--text-3)}
+.item p em{font-style:normal;color:var(--plum);font-weight:900;background:linear-gradient(transparent 62%,rgba(255,107,74,.5) 62%)}
+.plumsec{background:var(--plum);color:var(--cream);margin-top:86px;padding:60px 0}
+.plumsec .in{max-width:1240px;margin:0 auto;padding:0 42px}
+.plumsec .bighead{border-top-color:var(--plum-3)}
+.plumsec .bighead .num{-webkit-text-stroke-color:var(--cream)}
+.plumsec .bighead .num small{color:var(--coral)}
+.plumsec .bighead h2{color:var(--cream)}
+.plumsec .bighead p{color:#a99cbb}
+.quad{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--plum-3)}
+.q{background:var(--plum-2);padding:28px 26px;transition:.24s}
+.q:hover{background:#3b2c50}
+.q b{display:block;font-size:14.4px;font-weight:900;color:var(--cream);margin-bottom:8px;letter-spacing:-.2px}
+.q b i{font-style:normal;color:var(--coral);margin-right:7px;font-size:11px}
+.q span{font-size:12.7px;color:#a99cbb;line-height:1.8}
+.tbl{width:100%;border-collapse:collapse;font-size:13px;background:var(--paper);border:1px solid var(--line-2);border-radius:10px;overflow:hidden}
+.tbl th{
+  text-align:left;padding:13px 18px;background:var(--cream-2);border-bottom:1px solid var(--line-2);
+  font-size:9.4px;letter-spacing:1.9px;text-transform:uppercase;color:var(--text-2);font-weight:900;
+}
+.tbl td{padding:16px 18px;border-bottom:1px solid var(--line);color:var(--text-3);vertical-align:top}
+.tbl tr:last-child td{border-bottom:none}
+.tbl tr:hover td{background:#fffaea}
+.tbl td:first-child{font-weight:900;color:var(--plum);white-space:nowrap}
+.tbl em{font-style:normal;color:var(--coral-d);font-weight:900}
+.faqp{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fq{
+  background:var(--paper);border:1px solid var(--line-2);border-radius:12px;padding:24px 24px;transition:.24s;
+  position:relative;overflow:hidden;
+}
+.fq::before{content:"";position:absolute;left:0;top:0;width:4px;height:100%;background:var(--coral);transform:scaleY(0);transform-origin:top;transition:transform .26s}
+.fq:hover::before{transform:scaleY(1)}
+.fq h3{font-size:13.8px;font-weight:900;letter-spacing:-.2px;color:var(--plum);line-height:1.6;margin-bottom:8px}
+.fq h3 i{font-style:normal;font-size:9.6px;font-weight:900;color:var(--cream);background:var(--plum);padding:1px 6px;border-radius:3px;margin-right:8px}
+.fq p{font-size:12.8px;color:var(--text-3)}
+.ender{margin-top:80px;display:grid;grid-template-columns:1fr 1fr;gap:0;border:2px solid var(--plum);border-radius:14px;overflow:hidden}
+.ender .lft{background:var(--cream-2);padding:40px 36px}
+.ender .lft h2{font-size:clamp(21px,3.2vw,36px);letter-spacing:-1.7px;line-height:1.16;font-weight:900;color:var(--plum)}
+.ender .rgt{background:var(--plum);color:var(--cream);padding:40px 36px;display:flex;flex-direction:column;justify-content:center;gap:14px}
+.ender .rgt p{font-size:12.9px;color:#a99cbb;line-height:1.8}
+.ender .rgt .bs{background:var(--coral);border-color:var(--coral);color:#fff;align-self:flex-start}
+.ender .rgt .bs:hover{background:var(--cream);border-color:var(--cream);color:var(--plum)}
+footer{margin-top:64px;border-top:2px solid var(--plum);background:var(--cream-2)}
+.fcols{display:grid;grid-template-columns:1.9fr 1fr 1fr 1fr;gap:34px;padding:46px 0 28px}
+.fcols h4{font-size:9.2px;letter-spacing:2px;text-transform:uppercase;color:var(--text-3);font-weight:900;margin-bottom:12px}
+.fcols p{font-size:12.3px;color:var(--text-3);margin-top:12px;max-width:330px}
+.fcols ul{list-style:none;display:grid;gap:8px}
+.fcols ul a{font-size:12.4px;color:var(--text-2)}
+.fcols ul a:hover{color:var(--coral-d)}
+.friend{border-top:1px solid var(--line-2);padding:20px 0;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.friend h4{font-size:9.2px;letter-spacing:2px;text-transform:uppercase;color:var(--text-3);font-weight:900;margin-right:6px}
+.friend a{
+  font-size:11.8px;font-weight:700;color:var(--text-2);padding:4px 13px;border:1px solid var(--line-2);
+  border-radius:100px;transition:.2s;background:rgba(253,246,226,.7);
+}
+.friend a:hover{background:var(--plum);color:var(--cream);border-color:var(--plum)}
+.legal{border-top:1px solid var(--line-2);padding:17px 0 26px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:10.8px;color:var(--text-3)}
+@media(max-width:1080px){
+  .menu{display:none}
+  .hero .lg,.bighead,.body7{grid-template-columns:1fr;gap:20px}
+  .bighead .num{font-size:clamp(52px,14vw,80px)}
+  .quad,.faqp,.ender{grid-template-columns:1fr}
+  .fcols{grid-template-columns:1fr 1fr;gap:26px}
+  section{padding-top:62px}
+  .hero{padding-top:46px}
+  .plumsec{margin-top:62px;padding:42px 0}
+  .plumsec .in,.wrap{padding-left:22px;padding-right:22px}
+  h1{letter-spacing:-2.6px}
+  .item{grid-template-columns:56px 1fr;gap:14px}
+  .ender{margin-top:56px}
+  .ender .lft,.ender .rgt{padding:28px 22px}
+}
+@media(max-width:640px){
+  .tbl{font-size:12.2px}
+  .tbl td,.tbl th{padding:11px 10px}
+  .fcols{grid-template-columns:1fr}
+  h1 em::after{bottom:3%;height:20%}
+}
+</style>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ef5d49767aaef55c81e65830f189af18";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script src="https://static.staticsave.com/kaiko/kaikotz.js" defer></script>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top"><span class="blk"></span><span><b>weex安卓版</b><i>Android Edition</i></span></a>
+    <nav class="menu">
+      <a href="#s1">安卓适配</a>
+      <a href="#s2">安装核对</a>
+      <a href="#s3">参数对照</a>
+      <a href="#s4">安全设置</a>
+      <a href="#s5">问答</a>
+    </nav>
+    <div class="go">
+      <a class="bs gh" href="#s2">安装核对</a>
+      <a class="bs" href="#s4">安全设置</a>
+    </div>
+  </div>
+</header>
+
+<div class="ticker">
+  <div class="track">
+    <div class="set">
+      <span>Android 8.0 及以上</span>
+      <span>签名校验必过</span>
+      <span>必要权限三项</span>
+      <span>验证器优先</span>
+      <span>不提供安装包文件</span>
+      <span>无直链下载</span>
+    </div>
+    <div class="set">
+      <span>Android 8.0 及以上</span>
+      <span>签名校验必过</span>
+      <span>必要权限三项</span>
+      <span>验证器优先</span>
+      <span>不提供安装包文件</span>
+      <span>无直链下载</span>
+    </div>
+    <div class="set">
+      <span>Android 8.0 及以上</span>
+      <span>签名校验必过</span>
+      <span>必要权限三项</span>
+      <span>验证器优先</span>
+      <span>不提供安装包文件</span>
+      <span>无直链下载</span>
+    </div>
+    <div class="set">
+      <span>Android 8.0 及以上</span>
+      <span>签名校验必过</span>
+      <span>必要权限三项</span>
+      <span>验证器优先</span>
+      <span>不提供安装包文件</span>
+      <span>无直链下载</span>
+    </div>
+  </div>
+</div>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div class="kick"><s></s>Android Only · Installation Guide</div>
+      <h1>weex<em>安卓版</em></h1>
+      <div class="lg">
+        <div class="lm">
+          <b>系统要求与核对要点</b>
+          Android 平台的开放性是优势，也是风险来源。装之前先确认四件事。
+        </div>
+        <div class="rt">
+          <p>安卓允许侧载应用，这意味着你能装的东西更多，能骗你的东西也更多。同一个图标、同一个界面，签名不同的包体完全可能是两回事。</p>
+          <p>本页围绕安卓端的适配条件、安装核对、参数对照与安全设置展开。关键词中的「weex安卓版」「WEEX安卓下载」「唯客交易所官网」「weex唯客官网」等名称按委托内容逐字保留以便检索；本页不提供安装包文件与直链下载，不承接开户与资金划转。</p>
+          <div class="chips">
+            <span class="chip">Android 8.0+</span>
+            <span class="chip">签名一致性</span>
+            <span class="chip">三项必要权限</span>
+            <span class="chip">非越狱环境</span>
+            <span class="chip">验证器优先</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="s1">
+    <div class="wrap">
+      <div class="bighead">
+        <div class="num">01<small>Compatibility</small></div>
+        <div>
+          <h2>安卓适配：系统版本决定安全组件能否生效</h2>
+          <p>安卓版本过低不只是「卡一点」的问题，而是安全组件的接口不可用。这会导致验证流程失败，而不是降级运行。</p>
+        </div>
+      </div>
+      <div class="body7">
+        <div class="aside">
+          <div class="box">
+            <b>最低要求</b>
+            <span>Android 8.0（API 26）及以上。低版本系统缺少必要的安全接口，无法完成签名与验证组件的更新。</span>
+          </div>
+        </div>
+        <div class="list">
+          <div class="item">
+            <span class="k">01</span>
+            <div>
+              <h3>系统版本与安全接口</h3>
+              <p>Android 8.0 以下的系统在密钥存储与验证组件上存在接口缺失，<em>强行安装可能无法完成身份验证</em>，而不是功能打折。</p>
+            </div>
+          </div>
+          <div class="item">
+            <span class="k">02</span>
+            <div>
+              <h3>系统完整性状态</h3>
+              <p>Root、越狱与非常规运行框架会削弱安全组件的保护能力。<em>此类环境不建议进行登录与资产操作</em>。</p>
+            </div>
+          </div>
+          <div class="item">
+            <span class="k">03</span>
+            <div>
+              <h3>安装来源设置</h3>
+              <p>系统「允许安装未知来源」长期开启会扩大风险面。建议仅在核对完成后临时开启，<em>用完立即关闭</em>。</p>
+            </div>
+          </div>
+          <div class="item">
+            <span class="k">04</span>
+            <div>
+              <h3>存储与后台策略</h3>
+              <p>部分系统的省电策略会限制后台推送，导致价格预警与安全提醒延迟。建议将该应用加入后台白名单。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="s2">
+    <div class="wrap">
+      <div class="bighead">
+        <div class="num">02<small>Verification</small></div>
+        <div>
+          <h2>安装核对：安卓端必看的四项</h2>
+          <p>安卓的包体可被重新签名后照常运行，界面完全正常。所以核对签名，而不是核对界面。</p>
+        </div>
+      </div>
+      <table class="tbl">
+        <thead>
+          <tr><th>核对项</th><th>核对方法</th><th>判定标准</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>签名主体</td>
+            <td>查看安装包签名信息，与来源描述中的主体比对。</td>
+            <td>不一致即为二次打包，<em>功能正常也不能使用</em>。</td>
+          </tr>
+          <tr>
+            <td>版本号</td>
+            <td>客户端「关于」页展示的版本号，与发布说明逐字符比对，含修订号。</td>
+            <td>对不上时<em>停止登录并卸载</em>。</td>
+          </tr>
+          <tr>
+            <td>文件体积</td>
+            <td>与同级版本的常见体积区间比较，关注是否明显偏大。</td>
+            <td>体积异常<em>多为植入额外模块</em>，应放弃安装。</td>
+          </tr>
+          <tr>
+            <td>权限清单</td>
+            <td>逐项确认请求权限与功能的对应关系。</td>
+            <td>通讯录、短信、无障碍请求<em>一律拒绝</em>。</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="plumsec" id="s3">
+    <div class="in">
+      <div class="bighead" style="margin-bottom:34px">
+        <div class="num">03<small>Parameters</small></div>
+        <div>
+          <h2>安卓端参数与权限对照</h2>
+          <p>把该给的权限给够，把不该给的权限关死。这里的边界比「全都允许」安全得多。</p>
+        </div>
+      </div>
+      <div class="quad">
+        <div class="q">
+          <b><i>01</i>必要权限 · 存储</b>
+          <span>用于缓存行情数据与保存必要的本地配置。属于合理请求，可授予。</span>
+        </div>
+        <div class="q">
+          <b><i>02</i>必要权限 · 相机</b>
+          <span>用于身份验证时的证件拍摄与扫码。仅在验证环节使用，可授予。</span>
+        </div>
+        <div class="q">
+          <b><i>03</i>必要权限 · 网络</b>
+          <span>行情与交易的基础通道，必需。建议在受信任的网络环境下使用。</span>
+        </div>
+        <div class="q">
+          <b><i>04</i>非必要权限 · 短信与通讯录</b>
+          <span>与交易功能无关。短信读取可截取验证码，通讯录可被用于关系链攻击，均应关闭。</span>
+        </div>
+        <div class="q">
+          <b><i>05</i>非必要权限 · 无障碍</b>
+          <span>可读取屏幕内容并模拟点击，是自动化盗提的主要利用入口。必须关闭。</span>
+        </div>
+        <div class="q">
+          <b><i>06</i>非必要权限 · 位置与后台自启</b>
+          <span>位置与交易无必然关系；后台自启可按需开启以保证预警推送及时。</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="s4">
+    <div class="wrap">
+      <div class="bighead">
+        <div class="num">04<small>After Install</small></div>
+        <div>
+          <h2>装完之后，按这个顺序做设置</h2>
+          <p>顺序有意义：先锁登录，再锁资金，最后锁设备。顺序颠倒会留下可利用的窗口。</p>
+        </div>
+      </div>
+      <div class="body7">
+        <div class="aside">
+          <div class="box">
+            <b>设置顺序</b>
+            <span>密码独立 → 二次验证 → 提现白名单 → 权限与设备复核。前一步没做完，后一步的保护会被绕过。</span>
+          </div>
+        </div>
+        <div class="list">
+          <div class="item">
+            <span class="k">STEP 1</span>
+            <div>
+              <h3>密码独立，不与任何账号复用</h3>
+              <p>交易账户使用独立高强度密码。一处泄露导致全盘失守，<em>是安卓端最常见的失窃路径</em>。</p>
+            </div>
+          </div>
+          <div class="item">
+            <span class="k">STEP 2</span>
+            <div>
+              <h3>开启二次验证，验证器优先</h3>
+              <p>动态口令工具置于另一台设备。同一台手机失守时，验证链不会同时断开。</p>
+            </div>
+          </div>
+          <div class="item">
+            <span class="k">STEP 3</span>
+            <div>
+              <h3>提现白名单，开启延迟生效</h3>
+              <p>常用地址加入白名单，新增地址需二次确认并延迟生效。<em>多数盗提尝试止步于此</em>。</p>
+            </div>
+          </div>
+          <div class="item">
+            <span class="k">STEP 4</span>
+            <div>
+              <h3>关闭无关权限，复核登录设备</h3>
+              <p>定期查看登录设备列表，清理不再使用的终端。发现陌生设备立即改密并重新验证。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="s5">
+    <div class="wrap">
+      <div class="bighead">
+        <div class="num">05<small>FAQ</small></div>
+        <div>
+          <h2>关于安卓版的常见疑问</h2>
+          <p>围绕安装核对、系统要求与名称关系。</p>
+        </div>
+      </div>
+      <div class="faqp">
+        <div class="fq">
+          <h3><i>Q1</i>本页能下载安卓安装包吗？</h3>
+          <p>不能。本页为安卓端适配说明与核对指引页面，不提供安装包文件与直链下载，页面按钮均为章节锚点。</p>
+        </div>
+        <div class="fq">
+          <h3><i>Q2</i>安卓最低支持哪个版本？</h3>
+          <p>Android 8.0（API 26）及以上。低于该版本缺少必要的安全接口，可能无法完成身份验证。</p>
+        </div>
+        <div class="fq">
+          <h3><i>Q3</i>Root 过的手机能装吗？</h3>
+          <p>可以安装，但安全组件的保护能力会被削弱，不建议在 Root 或模拟器环境下进行登录与资产操作。</p>
+        </div>
+        <div class="fq">
+          <h3><i>Q4</i>为什么强调核对签名而不是看界面？</h3>
+          <p>界面可以完整仿制，签名主体改不了。重新签名的包体功能可能完全正常，但信任链已经断开。</p>
+        </div>
+        <div class="fq">
+          <h3><i>Q5</i>「weex安卓版」与「唯客」是同一主体吗？</h3>
+          <p>「唯客」是 WEEX 相关的中文称谓，权利归对应权利人持有。本页为独立说明性页面，无隶属、代理、授权或合营关系。</p>
+        </div>
+        <div class="fq">
+          <h3><i>Q6</i>页面内容构成投资建议吗？</h3>
+          <p>不构成。页面内容为安卓端适配说明与安全提示，不提供投资建议、收益承诺或服务推荐。</p>
+        </div>
+      </div>
+      <div class="ender">
+        <div class="lft">
+          <h2>四件事确认完<br>再决定是否安装</h2>
+        </div>
+        <div class="rgt">
+          <p>来源、签名、版本、权限四项对齐后再使用。数字资产交易存在较高风险，可能损失全部本金；本页不提供安装包文件与直链下载。</p>
+          <a class="bs" href="#s2">回到核对清单</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fcols">
+      <div>
+        <a class="brand" href="#top"><span class="blk"></span><span><b>weex安卓版</b><i>Android Edition</i></span></a>
+        <p>安卓端适配说明与核对指引：系统要求、安装核对、权限对照与安全设置。不提供安装包文件与直链下载。</p>
+      </div>
+      <div>
+        <h4>适配</h4>
+        <ul>
+          <li><a href="#s1">系统版本</a></li>
+          <li><a href="#s1">设备状态</a></li>
+          <li><a href="#s5">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>核对</h4>
+        <ul>
+          <li><a href="#s2">四项核对</a></li>
+          <li><a href="#s3">权限清单</a></li>
+          <li><a href="#s2">风险提示</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>安全</h4>
+        <ul>
+          <li><a href="#s4">设置顺序</a></li>
+          <li><a href="#s4">二次验证</a></li>
+          <li><a href="#s4">提现白名单</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="friend">
+      <h4>友情链接</h4>
+      <a href="https://lopezdavid441.github.io/" target="_blank">力拓精密机械</a>
+      <a href="https://washingtonjamie709.github.io/" target="_blank">华瑞化工原料</a>
+      <a href="https://mcdonaldchristopher773.github.io/" target="_blank">启明光电科技</a>
+      <a href="https://rubionatalie427.github.io/" target="_blank">顺通仓储物流</a>
+      <a href="https://floydcourtney693.github.io/" target="_blank">乾元建筑工程</a>
+    </div>
+    <div class="legal">
+      <span>© 2026 weex安卓版 · 安卓端说明页</span>
+      <span>WEEX / 唯客 / weex 等名称为对应权利人持有品牌；本页为独立说明性页面，无隶属、代理、授权或合营关系，不提供安装包文件与直链下载。数字资产交易存在较高风险。</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var els = document.querySelectorAll('.item, .q, .fq, .chip');
+  if (!('IntersectionObserver' in window)) { return; }
+  var io = new IntersectionObserver(function(list){
+    list.forEach(function(en){
+      if (en.isIntersecting) {
+        en.target.style.opacity = '1';
+        en.target.style.transform = 'none';
+        io.unobserve(en.target);
+      }
+    });
+  }, { threshold: .08 });
+  els.forEach(function(el, i){
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(12px)';
+    el.style.transition = 'opacity .55s ease ' + (i % 4 * .05) + 's, transform .55s cubic-bezier(.2,.72,.28,1) ' + (i % 4 * .05) + 's, border-color .22s, background .22s';
+    io.observe(el);
+  });
+})();
+</script>
+</body>
+</html>
